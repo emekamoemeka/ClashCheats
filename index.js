@@ -34,10 +34,4 @@ document.addEventListener('DOMContentLoaded', () => {
   } catch (err) {
     console.error('Roboflow request failed:', err);
   }
-});
-
-(async function handTracker() {
-  hand = ["cannon", "hog", "iceGolem", "log"]
-
-  
-})
+})();
